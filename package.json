@@ -1,0 +1,22 @@
+{
+  "name": "cscdigitalmitra",
+  "version": "4.3.0",
+  "private": true,
+  "description": "CSCDigitalMitra citizen-services frontend and Vercel/Supabase authentication foundation",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/bootstrap-admin.mjs && node scripts/dev-server.mjs",
+    "dev:server": "node scripts/dev-server.mjs",
+    "build": "node scripts/check-project.mjs",
+    "check": "node scripts/check-project.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.95.0"
+  },
+  "devDependencies": {
+    "vercel": "^41.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
